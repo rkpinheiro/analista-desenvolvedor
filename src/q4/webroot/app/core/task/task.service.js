@@ -6,7 +6,7 @@ angular.
         query: {
           method: 'GET',
           params: {},
-          isArray: true
+          isArray: false
         }
       });
     }

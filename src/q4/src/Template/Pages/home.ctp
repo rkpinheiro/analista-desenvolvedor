@@ -35,8 +35,12 @@ $this->layout = false;
     
     <script src="/app/core/task/task.module.js"></script>
     <script src="/app/core/task/task.service.js"></script>
+    <script src="/app/task-detail/task-detail.module.js"></script>
+    <script src="/app/task-detail/task-detail.component.js"></script>
     <script src="/app/task-list/task-list.module.js"></script>
     <script src="/app/task-list/task-list.component.js"></script>
+    <script src="/app/task-insert/task-insert.module.js"></script>
+    <script src="/app/task-insert/task-insert.component.js"></script>
     <script src="/app/core/core.module.js"></script>
     <script src="/app/core/core.component.js"></script>
     <script src="/app/app.module.js"></script>

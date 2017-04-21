@@ -1,9 +1,11 @@
 angular.module('taskList').
 	component('taskList', {
 		templateUrl: '/app/task-list/task-list.template.html',
-		controller: ['Task', function TaskListController(Task){
+		controller: ['$http', function TaskListController($http){
 			var ctrl = this;
-			ctrl.tasks = Task.query();	
-			console.log(ctrl.tasks)	
+
+			$http.get('/tasks.json').then(function(response) {
+		        ctrl.tasks = response.data.tasks;
+		    });
 		}]
 	});
