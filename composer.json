@@ -15,7 +15,9 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\Q1\\": "src/q1/"
+            "App\\Q1\\": "src/q1/",
+            "App\\Q2\\": "src/q2/",
+            "App\\Q3\\": "src/q3/"
         }
     },
     "autoload-dev": {
